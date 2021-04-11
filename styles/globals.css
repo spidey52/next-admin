@@ -1,16 +1,45 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  margin-top: 10px;
 }
 
-a {
+/* a {
   color: inherit;
   text-decoration: none;
+} */
+
+a:hover {
+  cursor: pointer;
 }
 
 * {
   box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  padding: 3px 10px;
+}
+
+label {
+  text-transform:capitalize;
+  display: block;
+  padding-bottom: 2px;
+}
+
+.required {
+  color: rgb(209, 0, 0);
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.home {
+  display: block;
+  margin-bottom: 10px;
+  color: inherit;
 }
